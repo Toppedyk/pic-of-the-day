@@ -7,7 +7,6 @@
         <input type="date" id="start" name="trip-start"
        v-model="state.picDate"
        min="2018-01-01" max="2021-04-20">
-
       </div>
       <div class="col-4">
         <Pictures/>

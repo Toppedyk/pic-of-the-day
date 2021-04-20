@@ -35,5 +35,6 @@ export default {
 <style lang="scss" scoped>
 img{
   height:50vh;
+  width:50vh;
 }
 </style>
