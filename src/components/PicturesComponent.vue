@@ -1,5 +1,5 @@
 <template>
-  <div class="Results">
+  <div class="Results" v-if ="state.picture">
     <MediaElement :pic="state.picture"/>
   </div>
 </template>

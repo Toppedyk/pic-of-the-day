@@ -1,6 +1,6 @@
 import axios from 'axios'
 
 export const nasaApi = axios.create({
-  baseURL: 'https://api.nasa.gov/planetary/apod?api_key=s87stGdeUwnjSDkCvHZAdvyE6KWFHhJTeS9uSyrQ',
+  baseURL: 'https://api.nasa.gov/planetary/apod',
   timeout: 3000
 })
